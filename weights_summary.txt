@@ -1,0 +1,219 @@
+Model Weights Summary
+==================================================
+
+Parameter: embedding.weight
+Shape: torch.Size([50257, 768])
+Size: 38597376 elements
+Mean: 0.000032
+Std: 0.982612
+
+Parameter: pos_encoding.pe
+Shape: torch.Size([1, 256, 768])
+Size: 196608 elements
+Mean: 0.306083
+Std: 0.637427
+
+Parameter: decoder_layers.0.self_attn.W_q.weight
+Shape: torch.Size([768, 768])
+Size: 589824 elements
+Mean: 0.000008
+Std: 0.031474
+
+Parameter: decoder_layers.0.self_attn.W_q.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: -0.001767
+Std: 0.035827
+
+Parameter: decoder_layers.0.self_attn.W_k.weight
+Shape: torch.Size([768, 768])
+Size: 589824 elements
+Mean: 0.000003
+Std: 0.029965
+
+Parameter: decoder_layers.0.self_attn.W_k.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: -0.000279
+Std: 0.020639
+
+Parameter: decoder_layers.0.self_attn.W_v.weight
+Shape: torch.Size([768, 768])
+Size: 589824 elements
+Mean: 0.000005
+Std: 0.023484
+
+Parameter: decoder_layers.0.self_attn.W_v.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: 0.001534
+Std: 0.034599
+
+Parameter: decoder_layers.0.self_attn.W_o.weight
+Shape: torch.Size([768, 768])
+Size: 589824 elements
+Mean: 0.000025
+Std: 0.019329
+
+Parameter: decoder_layers.0.self_attn.W_o.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: -0.001311
+Std: 0.038279
+
+Parameter: decoder_layers.0.feed_forward.linear1.weight
+Shape: torch.Size([3072, 768])
+Size: 2359296 elements
+Mean: 0.000036
+Std: 0.032320
+
+Parameter: decoder_layers.0.feed_forward.linear1.bias
+Shape: torch.Size([3072])
+Size: 3072 elements
+Mean: -0.030648
+Std: 0.022552
+
+Parameter: decoder_layers.0.feed_forward.linear2.weight
+Shape: torch.Size([768, 3072])
+Size: 2359296 elements
+Mean: -0.000019
+Std: 0.024011
+
+Parameter: decoder_layers.0.feed_forward.linear2.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: 0.000356
+Std: 0.013587
+
+Parameter: decoder_layers.0.norm1.weight
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: 0.981197
+Std: 0.021089
+
+Parameter: decoder_layers.0.norm1.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: -0.000348
+Std: 0.034214
+
+Parameter: decoder_layers.0.norm2.weight
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: 0.872213
+Std: 0.029295
+
+Parameter: decoder_layers.0.norm2.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: 0.001023
+Std: 0.023798
+
+Parameter: decoder_layers.1.self_attn.W_q.weight
+Shape: torch.Size([768, 768])
+Size: 589824 elements
+Mean: -0.000020
+Std: 0.025259
+
+Parameter: decoder_layers.1.self_attn.W_q.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: 0.001023
+Std: 0.034523
+
+Parameter: decoder_layers.1.self_attn.W_k.weight
+Shape: torch.Size([768, 768])
+Size: 589824 elements
+Mean: -0.000034
+Std: 0.025763
+
+Parameter: decoder_layers.1.self_attn.W_k.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: -0.000459
+Std: 0.020425
+
+Parameter: decoder_layers.1.self_attn.W_v.weight
+Shape: torch.Size([768, 768])
+Size: 589824 elements
+Mean: 0.000002
+Std: 0.033726
+
+Parameter: decoder_layers.1.self_attn.W_v.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: 0.000945
+Std: 0.022667
+
+Parameter: decoder_layers.1.self_attn.W_o.weight
+Shape: torch.Size([768, 768])
+Size: 589824 elements
+Mean: 0.000031
+Std: 0.033955
+
+Parameter: decoder_layers.1.self_attn.W_o.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: -0.000468
+Std: 0.033752
+
+Parameter: decoder_layers.1.feed_forward.linear1.weight
+Shape: torch.Size([3072, 768])
+Size: 2359296 elements
+Mean: 0.000037
+Std: 0.033688
+
+Parameter: decoder_layers.1.feed_forward.linear1.bias
+Shape: torch.Size([3072])
+Size: 3072 elements
+Mean: -0.029155
+Std: 0.021735
+
+Parameter: decoder_layers.1.feed_forward.linear2.weight
+Shape: torch.Size([768, 3072])
+Size: 2359296 elements
+Mean: 0.000009
+Std: 0.025816
+
+Parameter: decoder_layers.1.feed_forward.linear2.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: -0.000243
+Std: 0.022848
+
+Parameter: decoder_layers.1.norm1.weight
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: 0.984110
+Std: 0.020470
+
+Parameter: decoder_layers.1.norm1.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: -0.000045
+Std: 0.035123
+
+Parameter: decoder_layers.1.norm2.weight
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: 1.206747
+Std: 0.035803
+
+Parameter: decoder_layers.1.norm2.bias
+Shape: torch.Size([768])
+Size: 768 elements
+Mean: -0.000095
+Std: 0.051644
+
+Parameter: output_layer.weight
+Shape: torch.Size([50257, 768])
+Size: 38597376 elements
+Mean: -0.000119
+Std: 0.044766
+
+Parameter: output_layer.bias
+Shape: torch.Size([50257])
+Size: 50257 elements
+Mean: -0.049645
+Std: 0.029202
+
