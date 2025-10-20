@@ -161,11 +161,10 @@ You can also review generated text samples.
 **khaled ghalwash**
 Computer and Data Sciences | Alexandria National University
 AI/ML Enthusiast • Deep Learning • NLP • Transformers
-[GitHub](https://github.com/mohamedashraff22) | [LinkedIn](https://www.linkedin.com/in/mohameed-ashraf/)
 
----
 
 ## 📝 License
 
 This project is released under the MIT License.
+
 
